@@ -1,0 +1,59 @@
+
+ 
+
+ body {
+      background: black;
+ }
+ 
+ #header {
+      background: black;
+      
+      .header__menu {
+          ul li {
+               display: inline-block;
+               margin: 15px auto;
+               font-size: 34px;
+               font-family: 'Praise' 'cursive';
+               font-family: 'Teko', sans-serif;
+               position: relative;
+               left: 70%;
+               a {
+                    padding: 20px;
+                    border: black;
+                    background: black;
+                    text-decoration: none;
+                    color: grey;
+
+               }
+               a:hover {
+                    background: white;
+               }
+               
+          }
+      }
+      .header__logo {
+     
+          color: white;
+          font-family: 'Praise', 'cursive';
+          font-family: 'Teko', sans-serif;
+          font-size: 23px;
+      
+      }
+      
+ }
+
+ 
+ 
+ .galeria-grid {
+     display: grid;
+     grid-template-columns: repeat(11, 1fr);
+     gap: 2px;
+ }
+ 
+ 
+ .galeria-grid img {
+     width: 100%;
+     height: auto;
+    
+ }
+ 

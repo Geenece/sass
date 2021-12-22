@@ -1,0 +1,50 @@
+body {
+  background: black;
+}
+
+#header {
+  background: black;
+}
+
+#header .header__menu ul li {
+  display: inline-block;
+  margin: 15px auto;
+  font-size: 34px;
+  font-family: 'Praise' 'cursive';
+  font-family: 'Teko', sans-serif;
+  position: relative;
+  left: 70%;
+}
+
+#header .header__menu ul li a {
+  padding: 20px;
+  border: black;
+  background: black;
+  text-decoration: none;
+  color: grey;
+}
+
+#header .header__menu ul li a:hover {
+  background: white;
+}
+
+#header .header__logo {
+  color: white;
+  font-family: 'Praise', 'cursive';
+  font-family: 'Teko', sans-serif;
+  font-size: 23px;
+}
+
+.galeria-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  gap: 2px;
+}
+
+.galeria-grid img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=styles.css.map */
